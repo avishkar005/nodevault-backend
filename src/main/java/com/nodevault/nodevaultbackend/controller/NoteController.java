@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/notes")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://nodevault-frontend.vercel.app/")
 public class NoteController {
 
     private final NoteService service;
